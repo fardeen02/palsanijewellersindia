@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+  scroll-behavior: smooth;
+}
+
+#headTitle {
+  color: #0d2f16;
+  font-weight: 600;
+}
+
+#homeBar {
+  background-color: #335240;
+}
+
+.crImg {
+  height: 450 !important;
+  width: 400;
+}
+.footer {
+  width: 100vw;
+  padding-top: 0.5rem;
+  height: 3rem;
+  background-color: whitesmoke;
+  color: grey;
+  text-align: center;
+  margin-top: auto;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+
+  font-size: 0.8rem;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 1.25rem;
+  right: 1.875rem;
+  z-index: 99;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  background-color: #0d2f16;
+  color: whitesmoke;
+  cursor: pointer;
+  padding: 1rem;
+  border-radius: 50%;
+}
+
+#myBtn:hover {
+  background-color: #335240;
+  color: yellow;
+}
